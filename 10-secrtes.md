@@ -1,3 +1,11 @@
+### Create Secret
+
+```
+# kubectl create secret generic dbpasswords --from-literal=password=redhat 
+
+```
+
+
 ### MYSQL
 
 ```
@@ -28,7 +36,7 @@ spec:
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
             secretKeyRef:
-              name: mysql-pass
+              name: dbpasswords
               key: password
         ports:
         - containerPort: 3306
