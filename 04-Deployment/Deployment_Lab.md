@@ -1,4 +1,4 @@
----
+
 ### Lab Exercise 1: Create a Basic Deployment
 
 ```yaml
