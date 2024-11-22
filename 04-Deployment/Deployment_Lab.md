@@ -1,6 +1,7 @@
 ---
 ### Lab Exercise 1: Create a Basic Deployment
-**Objective**: Deploy an nginx server using a Kubernetes Deployment.
+
+**Objective** : Deploy an nginx server using a Kubernetes Deployment.
 1. **Task**: Define a Deployment manifest for nginx with the name "nginx-deploy" and 2 replicas.
 
 **Solution**:
