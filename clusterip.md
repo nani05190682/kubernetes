@@ -1,4 +1,3 @@
-Yes. For teaching **ClusterIP**, a very simple but realistic application is:
 
 > **Frontend Nginx → Backend Python API → Backend returns product information**
 
